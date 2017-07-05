@@ -1,0 +1,124 @@
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: black;
+  margin: 20px 20px 20px 20px;
+  padding-left: 10px;
+}
+
+h1 {
+  color: black;
+  font-family: 'Ranga', cursive;
+  font-size: 36px;
+  margin: 20px 20px 20px 20px;
+  padding-left: 10px;
+}
+
+h2 {
+  color: black;
+  font-family: 'Ranga', cursive;
+  font-size: 30px;
+  margin: 20px 200px 20px 100px;
+  padding-left: 10px;
+  border: 5px solid black;
+  background: #0b68aa;
+  border-radius: 20px;
+}
+
+h3 {
+	font-family: 'Raleway', sans-serif;
+  border-bottom: 1px dotted;
+	margin: 20px 20px 20px 20px;
+  padding-left: 30px;
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+  margin: 20px 20px 20px 20px;
+  padding-left: 30px;
+}
+
+ul li {
+	font-family: 'Raleway', sans-serif;
+	margin: 1px 20px 1px 1px;
+  border-radius: 20px;
+  width: 98%;
+}
+
+ol li {
+	font-family: 'Raleway', sans-serif;
+  border-bottom: 1px dotted;
+  margin: 1px 1px 1px 100px;
+  width: 30%;
+  padding-left: 30px;
+}
+
+
+
+.izq {
+  float: left;
+  margin: 5px 5px 5px 5px;
+  border: 5px solid black;
+  width: 20%;
+  position: fixed;
+  background-color: #b5e0ff;
+  border-radius: 20px;
+}
+
+.der {
+  float:right;
+  width: 75%;
+}
+
+#quiensoy {
+  margin: 10px 20px 5px 25px;
+  border: 5px solid black;
+  background-color: white;
+  border-radius: 20px;
+  background-color: #b5e0ff;
+}
+
+#formacion {
+  margin: 35px 20px 5px 25px;
+  border: 5px solid black;
+  background-color: white;
+  border-radius: 20px;
+  background-color: #b5e0ff;
+}
+
+#experiencia {
+  margin: 35px 20px 5px 25px;
+  border: 5px solid black;
+  background-color: white;
+  border-radius: 20px;
+  background-color: #b5e0ff;
+}
+
+#portfolio {
+  margin: 35px 20px 5px 25px;
+  border: 5px solid black;
+  background-color: white;
+  border-radius: 30px;
+  background-color: #b5e0ff;
+}
+
+.slider {
+  padding-left: 100px;
+}
+
+html {
+  background-image: url(http://i.imgur.com/nYfZwp4.jpg);
+}
+
+body {
+  margin: 15px 15px 15px 15px;
+}
+
+.imagen {
+  height: 380px;
+  width: 180px;
+  margin: 20px 20px 20px 40px;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+

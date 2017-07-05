@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>Curriculum</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		 
+		  <link rel="stylesheet" type="text/css" href="css\extra.css">
+          <link rel="stylesheet" type="text/css" href="css\unslider.css">
+          
+          <script type="text/javascript" src="js\jquery.min.js">
+        </script>
+          <script type="text/javascript" src="js\unslider.js">
+        </script>
+	
+	</head>
+
+	<body>
+		
+	<div class="izq">
+		<div><img class = "imagen" src="10482728_698381840211561_2146605748_n.jpg"></div>
+
+		<ul class="listaimagen">
+  			<li><a href="#quiensoy">Presentación</a></li>
+ 			<li><a href="#formacion">Formación</a></li>
+  			<li><a href="#experiencia">Experiencia</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+		</ul>
+	</div>
+		
+		<div class="der">
+		       
+		        <div id="quiensoy">
+					<h2>Quién Soy</h2>
+					<h1>Marcos Leguizamón</h1>
+					<h4>Front-end Jr.</h4>
+	
+
+	    <ul>		    
+			<li>Nombre: Marcos Leguizamón</li>
+		    <li>Edad: 17</li>
+		    <li>Dirección: 4 de Febrero 2700</li>
+		    <li>Teléfono: 1163667342</li>
+		    <li>Skype: m_leguizamon2</li>
+		</ul>
+
+		<p>Soy una persona con gustos y intereses diferentes. Me considero una persona inteligente, que sabe superar problemas, y me es fácil relacionarme con los demás en un entorno laboral.</p>
+
+	</div>
+
+	<div id="formacion">
+	   	 <h2>Formación</h2>
+		 <h4>EEM Nº 2 DE 16 "AGUSTÍN TOSCO"<br>Bachiller en Ciencias Sociales</h4>
+		 <p>Mi colegio está orientado en Ciencias Sociales, hasta ahora aprendí diversos temas sobre política, economía, sociología, psicología, historia, geografía, entre otras. Y estoy en AprendéProgramando porque quería estudiar algo nuevo que me llamaba la atención.</p>
+		 <h4>Aprendé Programando<br>Front-end Jr.</h4>
+		 <p>Acá me introducí en el mundo de la programación y adquirí los conocimientos necesarios para iniciarme en la industria como Desarrollador Front-end Jr. con experiencia en las tecnologías JavaScript, HTML y CSS.</p>
+    </div>
+
+    <div id="experiencia">
+    	<h2>Experiencia</h2>
+    	<p>Todavía no tengo experiencia laboral. Me gustaría crecer como profesional y poder desenvolverme en una empresa relacionada a la programación.</p>
+    </div>
+
+  		<div id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="slider">
+              <ul>
+                <li class="cv"> CV <a href="CurriculumV.html"><img src="curriculum.png"></a></li>
+                <li class="cv"> Sitio de Noticias <a href="telam.html"><img src="noticias.png"></a></li>
+                <li class="cv"> Rompecabezas <a href="juego.html"><img src="rompecabezas.png"></a></li>
+                <li class="cv"> Front <img src="front.jpg"></li>
+              </ul>
+
+        </div>
+
+	</div>
+
+
+  		<script>
+  		jQuery(document).ready(function($) {
+  			$('.slider').unslider({
+  				arrows: false,
+  				autoplay: true
+
+  			});
+  		});
+  	</script>
+
+
+	</body>
+
+</html>
